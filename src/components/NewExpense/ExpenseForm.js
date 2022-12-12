@@ -3,7 +3,7 @@ import "./ExpenseForm.css"
 
 const ExpenseForm = (props) => {
 
-
+  const[openCloseButton,setOpenCloseButton] =useState(false)
     const[inputValue,setInputValue]=useState({
         title:"",
         amount:"",
@@ -33,8 +33,14 @@ const ExpenseForm = (props) => {
     }
 
   console.log(inputValue);
+  
+
+  const changeTrueFalse=()=>{
+    openCloseButton=!openCloseButton
+    console.log(openCloseButton);
+  }
   return (
-    <form onSubmit={AddHandle}>
+    openCloseButton?(<form onSubmit={AddHandle}>
       <div className='new-expense__controls'>
         <div className='new-expense__control'>
             <label htmlFor="">Title</label>
@@ -50,10 +56,14 @@ const ExpenseForm = (props) => {
         </div>
       </div>
       <div className='new-expense__actions'>
+        <button onClick={()=>setOpenCloseButton(!openCloseButton)} type='button'>Cancel</button>
         <button type='submit'>Add Expense</button>
       </div>
-    </form>
+      
+    </form>):(<div><button onClick={()=>setOpenCloseButton(!openCloseButton)} type='button'>Add New Expense</button></div>)
   )
 }
 
 export default ExpenseForm
+
+
