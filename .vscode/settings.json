@@ -1,0 +1,7 @@
+{
+    "reactSnippets.settings.prettierEnabled": true,
+    "emmet.triggerExpansionOnTab":true,
+    "emmet.includeLanguages": {
+        "javascript":"javascriptreact"
+    }
+}
