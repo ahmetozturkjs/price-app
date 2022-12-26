@@ -1,3 +1,20 @@
+
+
+
+https://user-images.githubusercontent.com/107856471/209535352-e74e248f-f829-4910-9d01-97375081e164.mp4
+
+ ---------------Used technologies------------
+
+![htmlicon](https://user-images.githubusercontent.com/107856471/206396255-89ad418f-a5cd-4edf-8476-14fe0d9f85e8.png)
+![cssicon](https://user-images.githubusercontent.com/107856471/206396266-a1fb92d5-b9ec-4a91-858e-2cd3f3e7ac60.png)
+![jsicon](https://user-images.githubusercontent.com/107856471/206396279-aeb2efda-30e2-441e-9c9a-442dfe92a392.png)
+![bootstrapicon](https://user-images.githubusercontent.com/107856471/206396297-06240d6c-54d4-49d6-b279-9398cd4f6602.png)
+![reacticon](https://user-images.githubusercontent.com/107856471/206396317-f4001c3e-a497-4257-bbf2-ec1c992fdb73.png)
+
+----------Project description--------
+--Managing and tracking expenditures through a single program, monitoring on a graphic basis
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
